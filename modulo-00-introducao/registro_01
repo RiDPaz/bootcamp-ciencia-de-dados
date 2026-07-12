@@ -1,1 +1,285 @@
+Módulo 0 — Introdução à Ciência de Dados
 
+Objetivo: entender onde Python se encaixa e por que ele domina essa área.
+
+Antes de escrever a primeira linha de código, precisamos entender o ecossistema.
+
+Muita gente aprende ferramentas sem entender o motivo de existirem. Nós faremos o contrário.
+
+O que é Ciência de Dados?
+
+Imagine uma empresa como a Netflix.
+
+Todos os dias ela coleta milhões de informações:
+
+filmes assistidos;
+horário em que cada pessoa assiste;
+tempo que permaneceu vendo;
+quando pausou;
+quando desistiu;
+qual dispositivo usou;
+qual país;
+qual idioma.
+
+Isso gera um volume gigantesco de dados.
+
+Mas dados, sozinhos, não significam nada.
+
+Por exemplo:
+
+Filme A
+
+Visualizações:
+3.498.923
+
+
+Esse número, isoladamente, não responde perguntas importantes.
+
+Agora pense em perguntas como:
+
+Por que esse filme fez sucesso?
+Em quais países ele foi mais visto?
+Qual faixa etária assistiu?
+Quem abandonou o filme nos primeiros 10 minutos?
+Vale a pena produzir uma continuação?
+
+É aqui que entra a Ciência de Dados.
+
+Dados → Informação → Conhecimento → Decisão
+
+Essa é uma das ideias mais importantes do curso.
+
+Imagine uma pirâmide:
+
+        Decisão
+      Conhecimento
+      Informação
+         Dados
+Dados
+
+São fatos brutos.
+
+Exemplo:
+
+Cliente 53
+
+Compra
+
+R$ 280
+
+15:42
+
+São Paulo
+Informação
+
+Agora organizamos.
+
+Exemplo:
+
+Clientes de São Paulo gastam, em média, R$ 310.
+
+Já existe significado.
+
+Conhecimento
+
+Agora encontramos padrões.
+
+Exemplo:
+
+Clientes que compram às sextas-feiras gastam 27% mais.
+
+Decisão
+
+Agora a empresa age.
+
+Exemplo:
+
+Vamos lançar promoções na sexta-feira.
+
+Esse fluxo acontece diariamente em empresas como:
+
+Google
+Netflix
+Amazon
+Nubank
+Mercado Livre
+O Ciclo da Ciência de Dados
+
+Quase todo projeto segue estas etapas:
+
+Coletar dados
+
+↓
+
+Limpar dados
+
+↓
+
+Explorar dados
+
+↓
+
+Analisar
+
+↓
+
+Criar modelos (quando necessário)
+
+↓
+
+Comunicar resultados
+
+↓
+
+Tomar decisões
+
+Observe que programar é apenas uma parte.
+
+Boa parte do trabalho é entender o problema.
+
+Onde Python entra?
+
+Imagine que Python seja uma caixa de ferramentas.
+
+Cada biblioteca resolve um tipo de problema.
+
+Python
+│
+├── Pandas
+├── NumPy
+├── Matplotlib
+├── Plotly
+├── Scikit-Learn
+├── TensorFlow
+├── Polars
+├── DuckDB
+└── PyTorch
+
+Durante os próximos meses vamos conhecer várias delas.
+
+O ecossistema moderno
+
+Hoje um cientista de dados normalmente trabalha com algo parecido com isto:
+
+Banco de Dados
+        │
+        ▼
+      SQL
+        │
+        ▼
+     Python
+        │
+        ▼
+     Pandas
+        │
+        ▼
+ Visualização
+        │
+        ▼
+ Machine Learning
+        │
+        ▼
+ Dashboard
+Então por que Python?
+
+Porque ele possui:
+
+sintaxe simples;
+enorme comunidade;
+milhares de bibliotecas;
+integração com bancos de dados;
+integração com APIs;
+integração com IA;
+excelente desempenho para análise de dados quando combinado com bibliotecas otimizadas.
+
+Outro ponto importante: muitas operações pesadas em bibliotecas como NumPy e Pandas são implementadas em linguagens como C e C++, e o Python funciona como uma interface amigável para elas. Por isso, apesar de a linguagem em si não ser a mais rápida, ela oferece ótimo desempenho em muitas tarefas de análise.
+
+O mercado
+
+É comum encontrar vagas como:
+
+Analista de Dados
+Cientista de Dados
+Engenheiro de Dados
+Analista de BI
+Engenheiro de Machine Learning
+Analista de Inteligência de Mercado
+
+Embora compartilhem ferramentas, essas funções têm focos diferentes. Ao longo do bootcamp vamos discutir essas diferenças.
+
+O que um cientista de dados realmente faz?
+
+Muita gente imagina alguém treinando inteligência artificial o dia todo.
+
+Na prática, uma boa parte do tempo é gasta em atividades como:
+
+entender o problema de negócio;
+localizar as fontes de dados;
+limpar e organizar dados;
+validar a qualidade das informações;
+analisar padrões;
+comunicar resultados para pessoas que não programam.
+
+Essa capacidade de comunicação é tão importante quanto saber programar.
+
+Ferramentas que usaremos
+
+Durante o bootcamp vamos aprender, entre outras:
+
+Ferramenta	Objetivo
+Python	Linguagem principal
+Jupyter Notebook	Exploração e documentação de análises
+VS Code	Desenvolvimento
+Git	Controle de versão
+GitHub	Portfólio
+Pandas	Manipulação de dados
+NumPy	Computação numérica
+Matplotlib	Visualização
+SQL	Consulta a bancos de dados
+Scikit-learn	Machine Learning
+📚 Leituras recomendadas (Módulo 0)
+
+Comece a se familiarizar com estas referências oficiais:
+
+Python Documentation
+The Python Tutorial (oficial)
+Jupyter Documentation
+Pandas Documentation
+
+Não se preocupe em ler tudo agora. Vamos consultar essas fontes ao longo do curso.
+
+🧠 Active Recall
+
+Sem consultar o texto, tente responder:
+
+Qual é a diferença entre dado, informação, conhecimento e decisão?
+Por que Python se tornou tão popular em Ciência de Dados?
+Cite três etapas do ciclo de um projeto de Ciência de Dados.
+Qual a diferença entre coletar dados e analisá-los?
+O que faz um cientista de dados além de programar?
+
+Escreva suas respostas com suas próprias palavras. Depois eu corrijo.
+
+🎯 Primeiro desafio de portfólio
+
+Vamos começar a construir sua identidade profissional desde o primeiro dia.
+
+Crie um repositório no GitHub com esta estrutura:
+
+bootcamp-ciencia-de-dados
+│
+├── README.md
+├── modulo-00-introducao/
+├── modulo-01-python/
+├── datasets/
+├── notebooks/
+├── desafios/
+└── assets/
+
+Depois, no README.md, escreva (com suas palavras):
+
+Por que você decidiu estudar Ciência de Dados.
+Quais são seus objetivos profissionais.
+Como este bootcamp será organizado.
+Um checklist dos módulos (vamos preenchendo juntos).
+Um espaço para registrar os projetos concluídos.
